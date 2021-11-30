@@ -4,7 +4,8 @@ import torch
 from data.load_data import load_data, output_answer
 from data.encode import num_atom_features, num_bond_features
 from model.GNN import ThisIsNotAGNNAtAll
-from train_esol import MODEL_DICT_DIR
+
+MODEL_DICT_DIR = 'model/pt'
 
 SEED = 0
 USE_CUDA = False
